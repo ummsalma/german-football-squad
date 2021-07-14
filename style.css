@@ -164,12 +164,22 @@ color: rgb(108, 108, 108);
     padding-right: 30px;
    
     color: rgb(108, 108, 108);
+}
+
+
+/* <!-- newstodAY  finish          -->
+<!-- newstodAY  finish          --> */
+/* <!-- newstodAY  finish          --> */
 
 
 
-/* <!-- newstodAY            -->
-<!-- newstodAY            -->
-<!-- newstodAY            --> */
+#our-legends{font-weight: 700;
+    font-size: 48px;
+    color: gold;
+    
+
+}
+
 .legend-pic img{
     width: 100%;
     border-radius: 20px;
