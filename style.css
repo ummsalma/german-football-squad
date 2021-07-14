@@ -1,0 +1,130 @@
+body{
+    margin: 0;
+}
+
+h1
+{font-family: 'Poppins', sans-serif;
+color: white;
+font-size: 64px;
+
+}
+.banner{
+    display: flex;
+    justify-content: space-around;
+}
+header{
+    background-image: url(banner-left-img/finalbanner.jpg);
+    background-repeat: no-repeat;
+}
+.banner-left{
+
+}
+.banner-text{
+
+}
+/* ..................... */
+/* ........main............... */
+/* ........................ */
+/* article */
+/* players */
+.players{
+    display: grid;
+    grid-template-columns: repeat(3,1fr);
+    grid-column-gap: 39.6px;
+    margin-left: 237.6px;
+    margin-right: 237.6px;
+    
+
+}
+.player{
+    width: 436px;
+    height: 626px;
+    box-shadow: 2px 1px 10px gray;
+    margin-bottom: 35.64px;
+    
+}
+.player-profile-img{
+    display: flex;
+    justify-content: space-around;
+
+}
+.player-profile{
+    margin: 19.8px;
+
+}
+.tv-vedio{
+    display: flex;
+    align-items: center;
+    margin:179.52px;
+}
+.coch img{
+    width: 748.44px;
+    height: 450px;
+}
+.video-text{
+    margin: 34.32px;
+    padding:26.4px;
+
+}
+.coch{
+    margin:26.4px;
+}
+.news{
+    display:grid;
+    grid-template-columns: repeat(4,1fr);
+    grid-column-gap: 40px;
+    margin: 50px;
+}
+.news-img img{
+    width: 75%;
+    border-radius: 10px;
+}
+.recent-news{
+    margin: 20px;
+}
+.legend-pic img{
+    width: 100%;
+    border-radius: 20px;
+}
+.legend-pic{
+    /* border: 2px solid red; */
+    width: 360.59px;
+    height: 239px;
+    overflow: hidden;
+    overflow-y: hidden;
+    margin-left: 20px;
+}
+
+
+.leaders{
+    position: relative;
+    margin: 100px;
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    grid-column-gap: 50px;
+}
+.legend-text p{
+    position: absolute;
+    top: 76px;
+    padding: 15px;
+    display: none;
+    color: white;
+    font-size: 20px;
+    
+
+
+}
+.legend-pic:hover img{
+    width: 120%;
+    cursor: grab;
+    transition: 2.5s;
+   
+}
+
+.legend-pic:hover .legend-text p{
+    display: block;
+    width: 50%;
+    width: 250px;
+    background-color: rgba(237, 15, 218, 0.179);
+transition: 0s;
+}
