@@ -1,20 +1,41 @@
 body{
     margin: 0;
+    font-family: 'Poppins', sans-serif;
+
 }
 
+
+/* .....header....... */
+/* .....header....... */
+/* .....header....... */
+
+/* .....header....... */
+
+
+
+header{
+    background-image: url(banner-left-img/finalbanner.jpg);
+    background-repeat: no-repeat;
+    
+}
 h1
-{font-family: 'Poppins', sans-serif;
+{
+    
+    font-family: 'Poppins', sans-serif;
 color: white;
-font-size: 64px;
+font-weight: 700;
+font-size:84.48px;
+position: absolute;
+top: 273.24px;
+left: 205.92px;
+padding: 5px;
 
 }
 .banner{
     display: flex;
-    justify-content: space-around;
-}
-header{
-    background-image: url(banner-left-img/finalbanner.jpg);
-    background-repeat: no-repeat;
+    justify-content:space-between;
+    align-items: center;
+   
 }
 .banner-left{
 
@@ -27,6 +48,9 @@ header{
 /* ........................ */
 /* article */
 /* players */
+main{
+    margin-top: 0;
+}
 .players{
     display: grid;
     grid-template-columns: repeat(3,1fr);
@@ -37,10 +61,12 @@ header{
 
 }
 .player{
+    
     width: 436px;
     height: 626px;
     box-shadow: 2px 1px 10px gray;
     margin-bottom: 35.64px;
+    overflow-y: hidden;
     
 }
 .player-profile-img{
@@ -50,8 +76,37 @@ header{
 }
 .player-profile{
     margin: 19.8px;
+    
 
 }
+
+
+.player-profile h3 {
+    font-weight: 700px;
+    font-size: 36.96px;
+
+    
+
+}
+.player-profile p{
+font-size: 16px;
+
+color: rgb(108, 108, 108);
+
+
+
+}
+/* .........player..finish.......... */
+
+/* .........player..finish.......... */
+
+/* .........player..finish.......... */
+
+  /* video section */
+  /* video section */
+  /* video section */
+
+
 .tv-vedio{
     display: flex;
     align-items: center;
@@ -66,22 +121,55 @@ header{
     padding:26.4px;
 
 }
+#video-text-heading{
+    font-weight: 700;
+    font-size: 48px;
+
+}
 .coch{
     margin:26.4px;
 }
+
+
+ /* video section  finish*/
+  /* video section finish */
+  /* video section finish */
+
+
+
+  /* <!-- newstodAY            -->
+  <!-- newstodAY            -->
+  <!-- newstodAY            --> */
 .news{
     display:grid;
     grid-template-columns: repeat(4,1fr);
     grid-column-gap: 40px;
     margin: 50px;
 }
+
+
+#NEWS-TODAY{color: rgb(179, 17, 17);
+
+    font-weight: 700;
+    font-size: 48px;
+
+}
 .news-img img{
     width: 75%;
     border-radius: 10px;
 }
-.recent-news{
-    margin: 20px;
-}
+
+.news-img p{
+    font-size: 16px;
+    padding-right: 30px;
+   
+    color: rgb(108, 108, 108);
+
+
+
+/* <!-- newstodAY            -->
+<!-- newstodAY            -->
+<!-- newstodAY            --> */
 .legend-pic img{
     width: 100%;
     border-radius: 20px;
@@ -127,4 +215,7 @@ header{
     width: 250px;
     background-color: rgba(237, 15, 218, 0.179);
 transition: 0s;
+}
+footer{
+    text-align: center;
 }
