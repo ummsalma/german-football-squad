@@ -1,0 +1,282 @@
+@media only screen and (max-width: 400px) { 
+
+
+    body{
+        margin: 0;
+        font-family: 'Poppins', sans-serif;
+    
+    }
+    
+    
+    /* .....header....... */
+    /* .....header....... */
+    /* .....header....... */
+    
+    /* .....header....... */
+    
+    
+    
+    /* header{
+        background-image: url(banner-left-img/bgfinalimg.jpg);
+        background-repeat: no-repeat;
+    } */
+    h1
+{
+    
+    font-family: 'Poppins', sans-serif;
+color: white;
+font-weight: 700;
+font-size:64px;
+position: absolute;
+top: 112px;
+left: 16px;
+
+
+}
+
+
+.WACH_LIVE{text-decoration: none;
+    background-color: rgb(22, 97, 7);
+
+}
+.led{
+    width: 168px;
+    height: 44px;
+    position: absolute;
+    top: 600px;
+    left: 19px;
+    
+    background-color: rgb(12, 62, 136);
+    padding-left: 15px;
+    font-size: 16px;
+    font-weight: 600;
+
+
+
+    
+}
+.WACH_LIVE:hover .led{
+    background-color: rgb(0, 255, 251);
+    width: 200px;
+    transition: 2.5s;
+
+
+
+
+ 
+    
+}
+.banner{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    
+   
+}
+main{
+    margin-top: 0;}
+      
+        
+    
+    .players{
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        margin-left: 15px;
+       
+        margin-top: 0;
+        grid-column-gap: 0px;
+        align-content: center;
+        
+    
+    } 
+    .player{
+    
+        width: 330px;
+        height: 474px;
+        box-shadow: 2px 1px 10px gray;
+        margin-bottom: 24px;
+        overflow-y: hidden;
+        
+    }
+
+    .player-profile-img{
+        display: flex;
+        justify-content: space-around;
+    
+    }
+    .player-profile-img img{
+        width: 100%;
+        height:100%;
+    
+    }
+    .player-profile{
+        margin: 15px;
+        
+    
+    }
+    .player-profile h3 {
+        font-weight: 700px;
+        font-size: 28px;
+    
+        
+    
+    }
+
+/* .........player..finish.......... */
+
+/* .........player..finish.......... */
+
+/* .........player..finish.......... */
+
+  /* video section */
+  /* video section */
+  /* video section */
+
+
+
+  .tv-vedio{
+    display: flex;
+    flex-direction: column;
+   
+margin-top: 45px;
+
+
+
+  }
+  .coch img{
+    width: 328px;
+    height: 248px;
+}
+
+
+.video-text{
+    margin: 0;
+    /* margin-left: 15px;
+margin-right: 16px; */
+    /* padding:2px; */
+    width: 329px;
+    height: 299px;
+    overflow: hidden;
+
+}
+.video-text-heading{
+    font-weight: 700;
+    font-size: 30px;
+    word-break: break-all;
+
+
+}
+.coch{
+    margin-top: 15px;
+}
+.video-cong{
+    margin: 15px;
+}
+/* video section  finish*/
+  /* video section finish */
+  /* video section finish */
+
+
+
+  /* <!-- newstodAY            -->
+  <!-- newstodAY            -->
+  <!-- newstodAY            --> */
+
+  .news{
+   display: flex;
+
+   flex-direction: column;
+   margin: 15px;
+}
+
+.NEWS-TODAY h2 {
+    color: rgb(255, 255, 255);
+  
+    font-weight: 700;
+    font-size: 30px;
+    background-color: rgb(0, 0, 0);
+
+}
+.news-img img{
+    width: 100%;
+    border-radius: 10px;
+}
+/* <!-- newstodAY  finish          -->
+<!-- newstodAY  finish          --> */
+/* <!-- newstodAY  finish          --> */
+
+/* <!-- legendl start -->
+<!-- legendl start -->
+<!-- legendl start -->
+<!-- legendl start  -->
+ */
+
+
+ .our-legends h2{font-weight: 700;
+    font-size: 48px;
+    color: gold;
+   
+    background-color: rgba(192, 10, 46, 0.618);
+
+}
+.legend-pic img{
+    width: 100%;
+    border-radius: 20px;
+}
+ .legend-pic{
+     /* border: 2px solid red; */
+    width:100%;
+    height: 239px;
+    overflow: hidden;
+    overflow-y: hidden;
+    margin-left: 0;
+}
+
+ .leaders{
+    position: relative;
+    margin: 15px;
+    display:flex;
+  flex-direction: column;
+  }                  
+
+
+  .legend-text p{
+    
+    display: none;
+    color: white;
+    font-size: 20px;
+    
+
+
+}
+
+
+.legend-text p{
+    position: relative;
+    top: auto;
+    padding: 15px;
+    display:block;
+    color: white;
+    font-size: 20px;} 
+
+    .legend-pic{
+       
+
+margin-bottom: 27px;
+
+    }
+    .legend-pic img{
+    transition: 2.5s;
+}
+
+    .legend-pic:hover img{
+        width: 120%;
+        cursor: grab;
+        
+       
+    }
+
+ 
+}
+

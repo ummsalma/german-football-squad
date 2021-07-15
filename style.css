@@ -17,7 +17,7 @@ body{
 
 
 header{
-    background-image: url(banner-left-img/finalbanner.jpg);
+    background-image: url(banner-left-img/bgfinalimg.jpg);
     background-repeat: no-repeat;
     
 }
@@ -29,14 +29,14 @@ color: white;
 font-weight: 700;
 font-size:64px;
 position: absolute;
-top: 207px;
-left: 156px;
-padding: 5px;
+top: 273.24px;
+left: 205.92px;
+
 
 }
 
 .WACH_LIVE{text-decoration: none;
-    background-color: rgb(208, 59, 5);
+    background-color: rgba(242, 255, 4, 0.837);
 
 }
 
@@ -44,8 +44,8 @@ padding: 5px;
     width: 168px;
     height: 44px;
     position: absolute;
-    top: 650px;
-    left: 156px;
+    top:612.48px;
+    left:205.92px;
     background-color: rgb(208, 59, 5);
     padding-left: 15px;
     font-size: 16px;
@@ -87,18 +87,19 @@ main{
 .players{
     display: grid;
     grid-template-columns: repeat(3,1fr);
-    grid-column-gap: 30px;
-    margin-left: 180px;
-    margin-right: 180px;
+    grid-column-gap: 39.6px;
+    margin:237.6px;
+    margin-top: 0;
+  
     
 
 }
 .player{
     
     width: 330px;
-    height: 475px;
+    height: 474px;
     box-shadow: 2px 1px 10px gray;
-    margin-bottom: 27px;
+    margin-bottom: 35.64px;
     overflow-y: hidden;
     
 }
@@ -109,8 +110,8 @@ main{
 }
 
 .player-profile-img img{
-    width: 80%;
-    height: 80%;
+    width: 100%;
+    height:100%;
 
 }
 .player-profile{
@@ -160,7 +161,7 @@ color: rgb(108, 108, 108);
     padding:20px;
 
 }
-#video-text-heading{
+.video-text-heading{
     font-weight: 700;
     font-size: 48px;
 
@@ -179,6 +180,13 @@ color: rgb(108, 108, 108);
   /* <!-- newstodAY            -->
   <!-- newstodAY            -->
   <!-- newstodAY            --> */
+  
+  .NEWS-TODAY{color: rgb(179, 17, 17);
+  
+      font-weight: 700;
+      font-size: 48px;
+  
+  }
 .news{
     display:grid;
     grid-template-columns: repeat(4,1fr);
@@ -186,15 +194,8 @@ color: rgb(108, 108, 108);
     margin: 50px;
 }
 
-
-#NEWS-TODAY{color: rgb(179, 17, 17);
-
-    font-weight: 700;
-    font-size: 48px;
-
-}
 .news-img img{
-    width: 75%;
+    width: 100%;
     border-radius: 10px;
 }
 
@@ -222,7 +223,7 @@ color: rgb(108, 108, 108);
 
 
 
-#our-legends{font-weight: 700;
+.our-legends{font-weight: 700;
     font-size: 48px;
     color: gold;
     
@@ -261,6 +262,8 @@ color: rgb(108, 108, 108);
 
 
 }
+@media only screen and (min-width: 600px) { 
+
 .legend-pic:hover img{
     width: 120%;
     cursor: grab;
@@ -273,7 +276,12 @@ color: rgb(108, 108, 108);
     width: 50%;
     width: 250px;
     background-color: rgba(237, 15, 218, 0.179);
-transition: 0s;
+
+
+transition: 5ss;
+}
+
+
 }
 footer{
     text-align: center;
