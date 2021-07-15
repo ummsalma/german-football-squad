@@ -1,4 +1,4 @@
-@media only screen and (max-width: 400px) { 
+@media only screen and (max-width: 600px) { 
 
 
     body{
@@ -276,6 +276,48 @@ margin-bottom: 27px;
         
        
     }
+
+
+
+    
+
+    .footer-heading{
+        position: relative;
+        display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 271px;
+    height: 63px;
+   align-items: flex-start  ;
+   margin-right: 30px;
+    }
+    .footer-img{
+        width: 150px;
+        height: 63px;
+    }
+    .german-lover h3
+    {
+
+        width: 125.8px;
+        height: 29.93px;
+        font-size: 30px;
+    }
+    .footer-section{
+        margin-bottom: 15px;
+    }
+
+
+
+
+
+
+
+
+
+
+
+
+
 
  
 }
