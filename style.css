@@ -13,7 +13,7 @@ body{
 /* .....header....... */
 
 /* .....header....... */
-
+        
 
 
 header{
@@ -35,10 +35,7 @@ left: 205.92px;
 
 }
 
-.WACH_LIVE{text-decoration: none;
-    background-color: rgba(242, 255, 4, 0.837);
 
-}
 
 .led{
     width: 168px;
@@ -169,6 +166,42 @@ color: rgb(108, 108, 108);
 .coch{
     margin:20px;
 }
+.readmore{
+    position: relative;
+}
+
+.lcd{
+    width: 168px;
+    height: 44px;
+    position: absolute;
+    top: -150px;
+    left: 182px;
+    background-color: rgb(255, 0, 162);
+    padding-left: 15px;
+    font-size: 16px;
+    font-weight: 600;
+}
+.readmore:hover .lcd{
+    background-color: rgb(0, 255, 251);
+    width: 200px;
+    transition: 2.5s;
+
+
+
+
+ 
+    
+}
+
+
+
+
+
+
+
+
+
+
 
 
  /* video section  finish*/
