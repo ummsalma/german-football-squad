@@ -324,4 +324,99 @@ margin-bottom: 27px;
 
  
 }
+@media only screen and (max-width: 1600px) { 
 
+
+    body{
+        overflow-x:hidden ;
+    }
+    .banner-text h3
+
+
+    .leaders{
+        grid-template-columns: repeat(5, 1fr);
+        grid-column-gap: 0px;
+   margin-top:20px;
+   margin-left: -15px;
+   
+   
+    }
+    .le-pic img{
+        width: 90%;
+    }
+
+
+    .banner-text h3
+    {
+        
+        font-family: 'Poppins', sans-serif;
+    color: white;
+    font-weight: 700;
+    font-size:64px;
+    position: absolute;
+    top: 100px;
+    left: 156px;
+    
+    
+    }
+
+    .led{
+        top:464px;
+    left:156px;
+    }
+    .players{
+    grid-column-gap: 33px;
+    margin: 177px;
+    margin-top: 0;}
+
+
+
+    .player{margin-bottom: 27px;}
+    
+    .player-profile{
+        margin: 15px;
+
+        margin-bottom: 33px;
+    
+    
+    }
+    .leaders{width: 1440px;
+   
+    margin-left: 0;
+    grid-column-gap: 0px;
+    height: 230px;
+
+    }
+  
+    .legend-pic img{
+        width: 100%;}
+        .le-pic img{
+
+            width: 80%;
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+}
